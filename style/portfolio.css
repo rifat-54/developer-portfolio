@@ -12,6 +12,9 @@
   padding: 0;
 } */
 /* share color */
+.text-center{
+  text-align: center;
+}
 .secondary-bg{
   background-color: #FFF8F3;
 }
@@ -174,4 +177,38 @@ main{
   word-spacing: 3px;
   margin: 0 auto;
   padding: 0 30px;
+}
+
+/* resume */
+.resume{
+  margin: 130px auto;
+}
+.resume-container{
+  display: flex;
+  justify-content: center;
+  margin: 30px 30px;
+  
+}
+.resume-description{
+  width: 511px;
+  height: 175px;
+  margin: 40px auto;
+}
+.resume-collum{
+  padding: 10px 30px;
+  /* margin-top: 40px; */
+}
+.item-titel{
+  font-size: 30px;
+  font-weight: bold;
+  color: #474747;
+}
+.item-sub-title{
+  font-size: 20px;
+  color: #757575;
+  font-weight:600;
+}
+.item-description{
+  font-size: 16px;
+  color: #757575;
 }
