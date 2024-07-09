@@ -212,3 +212,39 @@ main{
   font-size: 16px;
   color: #757575;
 }
+
+/* footer */
+footer{
+  display: flex;
+  padding: 100px 80px;
+  gap: 50px;
+}
+.footer-collum{
+  width: 50%;
+}
+footer input[type="text"],footer input[type="email"]{
+  display: block;
+  width: 461px;
+  height: 54px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  border: none;
+  font-size: 16px;
+  padding-left: 15px;
+
+}
+footer textarea{
+  display: block;
+  width: 461px;
+  /* height: 54px; */
+  margin-bottom: 15px;
+  border-radius: 5px;
+  border: none;
+  font-size: 16px;
+  padding-left: 15px;
+  padding-top: 15px;
+
+}
+/* .footer-details{
+  margin: auto 0;
+} */
